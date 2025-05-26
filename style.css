@@ -1,0 +1,72 @@
+/* Light/Dark Theme Support */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+}
+
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode .form-check-label {
+    color: #ccc;
+}
+
+.dark-mode .alert-info {
+    background-color: #2c2c2c;
+    border-color: #444;
+    color: #ddd;
+}
+
+.dark-mode .btn-outline-dark {
+    color: #eee;
+    border-color: #777;
+}
+
+/* Question Styling */
+.question {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0d6efd;
+    border-radius: 5px;
+}
+
+.dark-mode .question {
+    background-color: #2b2b2b;
+    border-left-color: #4dabf7;
+}
+
+/* Result Highlights */
+.correct-answer {
+    background-color: #d1f2eb;
+    /* Teal for light mode */
+    border-left: 4px solid #138d75;
+}
+
+.wrong-answer {
+    background-color: #f9d6d5;
+    /* Coral for light mode */
+    border-left: 4px solid #c0392b;
+}
+
+.dark-mode .correct-answer {
+    background-color: #144d48;
+    border-left-color: #26a69a;
+}
+
+.dark-mode .wrong-answer {
+    background-color: #5c1e1b;
+    border-left-color: #e57373;
+}
+
+.dark-mode .dark-mode-bg {
+    background-color: #1f1f1f;
+    color: #ddd;
+}
+
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
