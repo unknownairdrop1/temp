@@ -97,14 +97,18 @@ function createNavigation(index, isSubmitted, chapterKey) {
     if (index > 0)
         navDiv.innerHTML += `<button class="btn btn-outline-secondary me-2" onclick="goToChapter(${index - 1})">⬅ Back</button>`;
 
-    if (!isSubmitted)
+    if (!isSubmitted) {
         navDiv.innerHTML += `<button class="btn btn-success me-2" onclick="handleSubmit(${index})">✅ Submit Chapter</button>`;
+        navDiv.innerHTML += `<button class="btn btn-secondary me-2" onclick="skipChapter(${index})">⏭ Skip Chapter</button>`;
+    }
 
     if (isSubmitted && !reviewMode[chapterKey])
         navDiv.innerHTML += `<button class="btn btn-warning me-2" onclick="reviewMode['${chapterKey}'] = true; showChapter(${index});">👁 Review Answers</button>`;
 
     if (index < quizData.length - 1)
         navDiv.innerHTML += `<button class="btn btn-outline-primary" onclick="goToChapter(${index + 1})">Next ➡</button>`;
+
+    navDiv.innerHTML += `<button class="btn btn-danger float-end" onclick="showFinalResults()">🏁 Finish Quiz</button>`;
 
     return navDiv;
 }
@@ -123,6 +127,11 @@ function handleSubmit(index) {
     const score = correct - wrong * 0.25;
     scores.push({ chapter: chapter.chapter, correct, wrong, score });
     showChapter(index);
+}
+
+function skipChapter(index) {
+    // Skip chapter — no score entry
+    goToChapter(index + 1);
 }
 
 function goToChapter(index) {
@@ -145,7 +154,8 @@ function updateAttemptCount() {
 
 function showFinalResults() {
     const resultDiv = document.getElementById("quiz");
-    document.getElementById("attempts").style.display = "none";
+    const attemptsDiv = document.getElementById("attempts");
+    if (attemptsDiv) attemptsDiv.style.display = "none";
 
     resultDiv.innerHTML = `
         <h2 class='mb-4'>📘 Quiz Results Summary</h2>
@@ -162,7 +172,7 @@ function showFinalResults() {
             </thead>
             <tbody>
                 ${scores.map((res, i) => {
-                    const chapter = quizData[i];
+                    const chapter = quizData.find(c => c.chapter === res.chapter);
                     const attempted = res.correct + res.wrong;
                     return `
                         <tr>
@@ -180,7 +190,7 @@ function showFinalResults() {
     `;
 
     const totalScore = scores.reduce((a, b) => a + b.score, 0);
-    const totalQuestions = quizData.reduce((a, b) => a + b.questions.length, 0);
+    const totalQuestions = scores.reduce((a, b) => a + quizData.find(q => q.chapter === b.chapter).questions.length, 0);
     const totalAttempted = scores.reduce((a, b) => a + b.correct + b.wrong, 0);
 
     resultDiv.innerHTML += `
