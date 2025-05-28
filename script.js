@@ -31,7 +31,7 @@ function showChapter(index) {
     chapter.questions.forEach((q, qIndex) => {
         const qDiv = document.createElement("div");
         qDiv.className = "question";
-        qDiv.innerHTML = `<p><strong>Q${qIndex + 1}:</strong> ${q.question}</p>`;
+        qDiv.innerHTML = `<p><strong>Q${q.question}</strong> </p>`;
 
         q.options.forEach((opt) => {
             const inputId = `q-${index}-${qIndex}-${opt}`;
