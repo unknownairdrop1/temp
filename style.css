@@ -70,3 +70,11 @@ body.dark-mode {
     pointer-events: none;
     opacity: 0.6;
 }
+.correct-answer {
+    background-color: #d4edda;
+}
+
+.user-wrong-answer {
+    background-color: #f8d7da;
+    border-left: 4px solid red;
+}
