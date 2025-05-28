@@ -2,11 +2,12 @@ let quizData = [];
 let currentChapterIndex = 0;
 let scores = [];
 let reviewMode = {};
+let userAnswers = {};
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch("quizData.json")
-        .then((res) => res.json())
-        .then((data) => {
+        .then(res => res.json())
+        .then(data => {
             quizData = data;
             loadTheme();
             showChapter(currentChapterIndex);
@@ -20,32 +21,33 @@ function showChapter(index) {
     if (index >= quizData.length) return showFinalResults();
 
     const chapter = quizData[index];
-    const isSubmitted = scores.some((s) => s.chapter === chapter.chapter);
-    const inReview = reviewMode[chapter.chapter];
+    const chapterKey = chapter.chapter;
+    const isSubmitted = scores.some(s => s.chapter === chapterKey);
+    const inReview = reviewMode[chapterKey];
 
     const chapterDiv = document.createElement("div");
-    chapterDiv.innerHTML = `<h2>${chapter.chapter}</h2>`;
+    chapterDiv.innerHTML = `<h2>${chapterKey}</h2>`;
 
     chapter.questions.forEach((q, qIndex) => {
         const qDiv = document.createElement("div");
         qDiv.className = "question";
-
         qDiv.innerHTML = `<p><strong>Q${qIndex + 1}:</strong> ${q.question}</p>`;
 
         q.options.forEach((opt) => {
             const inputId = `q-${index}-${qIndex}-${opt}`;
-            const selected = document.querySelector(`input[name="q-${index}-${qIndex}"]:checked`);
-            const selectedValue = selected ? selected.value : null;
-
             const input = document.createElement("input");
-            input.className = "form-check-input";
             input.type = "radio";
             input.name = `q-${index}-${qIndex}`;
             input.value = opt;
             input.id = inputId;
             input.disabled = isSubmitted;
-            input.checked = selectedValue === opt;
-            input.onchange = () => updateAttemptCount();
+            input.checked = userAnswers[`${index}-${qIndex}`] === opt;
+            input.className = "form-check-input";
+
+            input.onchange = () => {
+                userAnswers[`${index}-${qIndex}`] = opt;
+                updateAttemptCount();
+            };
 
             const label = document.createElement("label");
             label.className = "form-check-label ms-1";
@@ -56,10 +58,12 @@ function showChapter(index) {
             wrapper.className = "form-check";
 
             if (inReview) {
+                const userSelected = userAnswers[`${index}-${qIndex}`];
                 if (opt === q.answer) {
                     wrapper.classList.add("correct-answer");
-                } else if (selectedValue === opt && opt !== q.answer) {
-                    wrapper.classList.add("wrong-answer");
+                }
+                if (opt === userSelected && opt !== q.answer) {
+                    wrapper.classList.add("user-wrong-answer");
                 }
             }
 
@@ -71,27 +75,38 @@ function showChapter(index) {
         chapterDiv.appendChild(qDiv);
     });
 
+    if (inReview) {
+        chapterDiv.innerHTML += `
+            <div class="alert alert-info mt-3">
+                <strong>Review Mode:</strong>
+                <span class="badge bg-success">Correct Answer</span>
+                <span class="badge bg-danger">Your Wrong Selection</span>
+            </div>
+        `;
+    }
+
+    chapterDiv.appendChild(createNavigation(index, isSubmitted, chapterKey));
+    container.appendChild(chapterDiv);
+    updateAttemptCount();
+}
+
+function createNavigation(index, isSubmitted, chapterKey) {
     const navDiv = document.createElement("div");
     navDiv.className = "mt-4";
 
     if (index > 0)
         navDiv.innerHTML += `<button class="btn btn-outline-secondary me-2" onclick="goToChapter(${index - 1})">⬅ Back</button>`;
 
-    if (!isSubmitted) {
+    if (!isSubmitted)
         navDiv.innerHTML += `<button class="btn btn-success me-2" onclick="handleSubmit(${index})">✅ Submit Chapter</button>`;
-    }
 
-    if (isSubmitted && !inReview) {
-        navDiv.innerHTML += `<button class="btn btn-warning me-2" onclick="reviewMode['${chapter.chapter}'] = true; showChapter(${index});">👁 Review Answers</button>`;
-    }
+    if (isSubmitted && !reviewMode[chapterKey])
+        navDiv.innerHTML += `<button class="btn btn-warning me-2" onclick="reviewMode['${chapterKey}'] = true; showChapter(${index});">👁 Review Answers</button>`;
 
     if (index < quizData.length - 1)
         navDiv.innerHTML += `<button class="btn btn-outline-primary" onclick="goToChapter(${index + 1})">Next ➡</button>`;
 
-    chapterDiv.appendChild(navDiv);
-    container.appendChild(chapterDiv);
-
-    updateAttemptCount();
+    return navDiv;
 }
 
 function handleSubmit(index) {
@@ -99,15 +114,14 @@ function handleSubmit(index) {
     let correct = 0, wrong = 0;
 
     chapter.questions.forEach((q, qIndex) => {
-        const selected = document.querySelector(`input[name="q-${index}-${qIndex}"]:checked`);
-        if (selected) {
-            selected.value === q.answer ? correct++ : wrong++;
+        const answer = userAnswers[`${index}-${qIndex}`];
+        if (answer) {
+            answer === q.answer ? correct++ : wrong++;
         }
     });
 
     const score = correct - wrong * 0.25;
     scores.push({ chapter: chapter.chapter, correct, wrong, score });
-
     showChapter(index);
 }
 
@@ -122,8 +136,7 @@ function updateAttemptCount() {
     let attempted = 0;
 
     chapter.questions.forEach((_, qIndex) => {
-        const selected = document.querySelector(`input[name="q-${currentChapterIndex}-${qIndex}"]:checked`);
-        if (selected) attempted++;
+        if (userAnswers[`${currentChapterIndex}-${qIndex}`]) attempted++;
     });
 
     const attemptsDiv = document.getElementById("attempts");
@@ -134,39 +147,49 @@ function showFinalResults() {
     const resultDiv = document.getElementById("quiz");
     document.getElementById("attempts").style.display = "none";
 
-    resultDiv.innerHTML = "<h2 class='mb-4'>📘 Quiz Results Summary</h2>";
-    let totalScore = 0;
-    let totalAttempted = 0;
-    let totalQuestions = 0;
-
-    scores.forEach((res, i) => {
-        const chapter = quizData[i];
-        const attempted = res.correct + res.wrong;
-        const questions = chapter.questions.length;
-
-        totalScore += res.score;
-        totalAttempted += attempted;
-        totalQuestions += questions;
-
-        resultDiv.innerHTML += `
-      <div class="result mb-3 p-3 border rounded bg-white dark-mode-bg">
-        <h4>${res.chapter}</h4>
-        <p>✅ Correct: ${res.correct}</p>
-        <p>❌ Wrong: ${res.wrong}</p>
-        <p>📝 Attempted: ${attempted} / ${questions}</p>
-        <p>📊 Score: <strong>${res.score.toFixed(2)}</strong></p>
-      </div>
+    resultDiv.innerHTML = `
+        <h2 class='mb-4'>📘 Quiz Results Summary</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>📖 Chapter</th>
+                    <th>✅ Correct</th>
+                    <th>❌ Wrong</th>
+                    <th>📝 Attempted</th>
+                    <th>📋 Total</th>
+                    <th>📊 Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${scores.map((res, i) => {
+                    const chapter = quizData[i];
+                    const attempted = res.correct + res.wrong;
+                    return `
+                        <tr>
+                            <td>${res.chapter}</td>
+                            <td>${res.correct}</td>
+                            <td>${res.wrong}</td>
+                            <td>${attempted}</td>
+                            <td>${chapter.questions.length}</td>
+                            <td><strong>${res.score.toFixed(2)}</strong></td>
+                        </tr>
+                    `;
+                }).join("")}
+            </tbody>
+        </table>
     `;
-    });
+
+    const totalScore = scores.reduce((a, b) => a + b.score, 0);
+    const totalQuestions = quizData.reduce((a, b) => a + b.questions.length, 0);
+    const totalAttempted = scores.reduce((a, b) => a + b.correct + b.wrong, 0);
 
     resultDiv.innerHTML += `
-    <div class="alert alert-success text-center mt-4">
-      <h3>✅ Total Attempted: ${totalAttempted} / ${totalQuestions}</h3>
-      <h3>📊 Total Score: ${totalScore.toFixed(2)}</h3>
-    </div>
-  `;
+        <div class="alert alert-success text-center mt-4">
+            <h3>✅ Attempted: ${totalAttempted} / ${totalQuestions}</h3>
+            <h3>📊 Total Score: ${totalScore.toFixed(2)}</h3>
+        </div>
+    `;
 }
-
 
 function toggleDarkMode() {
     const body = document.getElementById("body");
