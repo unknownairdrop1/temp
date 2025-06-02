@@ -1,0 +1,2214 @@
+{
+  "test1": {
+    "title": "NISM Equity Derivatives (Series VIII) Certification Examination - Normal Difficulty",
+    "difficulty": "Normal",
+    "total_questions": 100,
+    "questions": [
+      {
+        "id": 1,
+        "question": "A derivative is a contract or product whose value is derived from the value of:",
+        "options": {
+          "a": "Another derivative",
+          "b": "The underlying asset",
+          "c": "Market sentiment",
+          "d": "The economy's GDP"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is listed as an underlying asset for derivatives in the sources?",
+        "options": {
+          "a": "Real Estate",
+          "b": "Art Collections",
+          "c": "Energy resources",
+          "d": "Cryptocurrencies"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 3,
+        "question": "The history of derivatives markets can be traced back to:",
+        "options": {
+          "a": "The late 20th century",
+          "b": "The early 1900s",
+          "c": "Several centuries ago",
+          "d": "The establishment of SEBI"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 4,
+        "question": "The Chicago Board of Trade (CBOT) facilitated trading of forward contracts on various commodities starting in:",
+        "options": {
+          "a": "1919",
+          "b": "1865",
+          "c": "1848",
+          "d": "1972"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 5,
+        "question": "What significant event in the history of derivatives occurred in Holland between 1634-1637?",
+        "options": {
+          "a": "Introduction of currency futures",
+          "b": "Development of a futures market in rice",
+          "c": "Tulip Mania",
+          "d": "Listing of the first exchange-traded derivative"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 6,
+        "question": "When did exchange-traded derivatives begin in India?",
+        "options": {
+          "a": "1998",
+          "b": "1999",
+          "c": "June 2000",
+          "d": "November 2001"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 7,
+        "question": "The Securities Contract Regulation Act (SCRA) was amended to include \"derivatives\" within the domain of 'securities' in:",
+        "options": {
+          "a": "1996",
+          "b": "1998",
+          "c": "1999",
+          "d": "2000"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 8,
+        "question": "Who are the three broad types of participants in the derivatives market?",
+        "options": {
+          "a": "Buyers, Sellers, and Brokers",
+          "b": "Hedgers, Traders, and Arbitrageurs",
+          "c": "Investors, Regulators, and Exchanges",
+          "d": "Banks, Corporations, and Individuals"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 9,
+        "question": "Participants who use derivatives to reduce their risk associated with underlying asset prices are called:",
+        "options": {
+          "a": "Speculators",
+          "b": "Arbitrageurs",
+          "c": "Traders",
+          "d": "Hedgers"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 10,
+        "question": "Risk of an economic loss from the failure of the counterparty to fulfil its contractual obligation is known as:",
+        "options": {
+          "a": "Price risk",
+          "b": "Liquidity risk",
+          "c": "Counterparty risk",
+          "d": "Operational risk"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 11,
+        "question": "An index is a statistical indicator that measures changes in:",
+        "options": {
+          "a": "Only stock prices",
+          "b": "Specific areas of the economy or financial markets",
+          "c": "Only bond yields",
+          "d": "Individual company performance"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 12,
+        "question": "A stock index is primarily created to provide market participants with information regarding:",
+        "options": {
+          "a": "Individual stock volatility",
+          "b": "Average share price movement in the market",
+          "c": "Company dividend payouts",
+          "d": "Regulatory changes"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 13,
+        "question": "How do managed portfolios often use a stock index?",
+        "options": {
+          "a": "As a direct investment vehicle",
+          "b": "As a measure for evaluation of their performance",
+          "c": "To predict interest rate movements",
+          "d": "To calculate brokerage fees"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 14,
+        "question": "In a market capitalization weighted index, each stock is given a weight according to:",
+        "options": {
+          "a": "Its daily trading volume",
+          "b": "Its share price",
+          "c": "Its market capitalization",
+          "d": "The number of outstanding shares"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 15,
+        "question": "What is the primary difference between a market capitalization weighted index and a free-float market capitalization index?",
+        "options": {
+          "a": "Free-float only includes bonds",
+          "b": "Free-float uses only the price, not the market cap",
+          "c": "Free-float considers only shares readily available for trading",
+          "d": "There is no significant difference"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 16,
+        "question": "A forward contract is an agreement made:",
+        "options": {
+          "a": "Through an organized exchange",
+          "b": "Directly between two parties",
+          "c": "Without a pre-decided price",
+          "d": "With physical delivery on the contract date"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 17,
+        "question": "In a forward contract, are the contracting parties committed to honour the transaction irrespective of the underlying asset's price at delivery?",
+        "options": {
+          "a": "Yes, for both parties",
+          "b": "Only the buyer is committed",
+          "c": "Only the seller is committed",
+          "d": "No, either party can default without consequence"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following is a major limitation of forward contracts mentioned in the sources?",
+        "options": {
+          "a": "Standardization",
+          "b": "High liquidity",
+          "c": "Counterparty risk",
+          "d": "Transparency"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 19,
+        "question": "Futures contracts were created to overcome the limitations of forwards by being:",
+        "options": {
+          "a": "Tailor-made contracts",
+          "b": "Traded on an organized exchange",
+          "c": "Settled through physical delivery only",
+          "d": "Negotiated directly between parties"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 20,
+        "question": "In a futures market, who decides all the terms of the contract other than price?",
+        "options": {
+          "a": "The buyer",
+          "b": "The seller",
+          "c": "The exchange",
+          "d": "SEBI"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 21,
+        "question": "What is the term for the number of units of the underlying asset in a futures contract?",
+        "options": {
+          "a": "Tick size",
+          "b": "Contract cycle",
+          "c": "Contract multiplier or Contract size",
+          "d": "Open interest"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 22,
+        "question": "The difference between the spot price and the futures price is called:",
+        "options": {
+          "a": "Cost of Carry",
+          "b": "Basis",
+          "c": "Premium",
+          "d": "Implied volatility"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 23,
+        "question": "What happens to the basis for a futures contract at maturity/expiry?",
+        "options": {
+          "a": "It remains constant",
+          "b": "It becomes zero",
+          "c": "It equals the Cost of Carry",
+          "d": "It becomes negative"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 24,
+        "question": "The amount one needs to deposit in the margin account at the time of entering into a futures contract is known as the:",
+        "options": {
+          "a": "Mark-to-Market margin",
+          "b": "Final settlement price",
+          "c": "Initial Margin",
+          "d": "Premium"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 25,
+        "question": "In futures market, profits and losses are settled on a day-to-day basis through a process called:",
+        "options": {
+          "a": "Final settlement",
+          "b": "Mark-to-Market (MTM) settlement",
+          "c": "Premium settlement",
+          "d": "Exercise settlement"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 26,
+        "question": "The total number of contracts outstanding (yet to be settled) for an underlying asset in the futures market is called:",
+        "options": {
+          "a": "Traded volume",
+          "b": "Open Interest",
+          "c": "Contract size",
+          "d": "Position limit"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 27,
+        "question": "A long position in a futures contract means a market participant has:",
+        "options": {
+          "a": "Sold a contract and not yet closed it",
+          "b": "Bought a contract and not yet closed it",
+          "c": "Squared off an existing position",
+          "d": "Taken a position in the underlying asset"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 28,
+        "question": "A position in futures market where a trader is long or short in any futures contract without having any position in the underlying asset is called a:",
+        "options": {
+          "a": "Calendar spread position",
+          "b": "Hedged position",
+          "c": "Arbitrage position",
+          "d": "Naked position"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 29,
+        "question": "What is the primary difference in operational mechanism between forward contracts and futures contracts?",
+        "options": {
+          "a": "Forwards are standardized, futures are not",
+          "b": "Forwards are exchange-traded, futures are not",
+          "c": "Forwards are over-the-counter, futures are exchange-traded",
+          "d": "Forwards have no counterparty risk, futures do"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 30,
+        "question": "In terms of liquidity profile, how do forward contracts compare to futures contracts?",
+        "options": {
+          "a": "Forwards have higher liquidity",
+          "b": "Futures have higher liquidity",
+          "c": "Both have similar high liquidity",
+          "d": "Both have similar low liquidity"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 31,
+        "question": "What is the payoff profile for a long futures contract?",
+        "options": {
+          "a": "Limited profit, Limited loss",
+          "b": "Unlimited profit, Limited loss",
+          "c": "Limited profit, Unlimited loss",
+          "d": "Unlimited profit, Unlimited loss"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 32,
+        "question": "According to the Cost of Carry model, the fair price of a futures contract is the sum of the spot price of the underlying asset and the:",
+        "options": {
+          "a": "Expected future price",
+          "b": "Historical volatility",
+          "c": "Cost of carrying the asset from today until delivery",
+          "d": "Option premium"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 33,
+        "question": "When the futures price is less than the fair futures price, what arbitrage is triggered according to the Cost of Carry model?",
+        "options": {
+          "a": "Cash and carry arbitrage",
+          "b": "Reverse cash and carry arbitrage",
+          "c": "Inter-exchange arbitrage",
+          "d": "Calendar spread arbitrage"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 34,
+        "question": "What happens to the no-arbitrage bounds when the costs of operating in the markets are higher?",
+        "options": {
+          "a": "They become narrower",
+          "b": "They remain unchanged",
+          "c": "They become wider",
+          "d": "They disappear"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 35,
+        "question": "According to the Expectations model of futures pricing, what does the futures price indicate?",
+        "options": {
+          "a": "The historical average spot price",
+          "b": "The current spot price plus cost of carry",
+          "c": "An indication of the expected direction of movement of the spot price in the future",
+          "d": "The maximum possible price the asset can reach"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 36,
+        "question": "Which of the following is a use of futures contracts mentioned in the sources?",
+        "options": {
+          "a": "Buying real estate",
+          "b": "Hedging",
+          "c": "Investing in mutual funds",
+          "d": "Paying off debt"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 37,
+        "question": "Arbitrageurs typically aim to make profits that are:",
+        "options": {
+          "a": "Dependent on market direction",
+          "b": "Risk-free",
+          "c": "Limited to the premium paid",
+          "d": "Based on predicting future price movements"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 38,
+        "question": "What type of risk is unique to specific events pertaining to a company and/or industry?",
+        "options": {
+          "a": "Systematic risk",
+          "b": "Market risk",
+          "c": "Unsystematic Risk",
+          "d": "Counterparty risk"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 39,
+        "question": "Variability in a security's total returns that are directly associated with overall movements in the general market or economy is called:",
+        "options": {
+          "a": "Specific risk",
+          "b": "Unsystematic risk",
+          "c": "Systematic Risk",
+          "d": "Liquidity risk"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 40,
+        "question": "A hedge accomplished by going short in the futures market is called a:",
+        "options": {
+          "a": "Long hedge",
+          "b": "Cross hedge",
+          "c": "Short hedge",
+          "d": "Calendar spread"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 41,
+        "question": "An option is a contract that gives the holder:",
+        "options": {
+          "a": "The obligation to buy or sell the underlying asset",
+          "b": "The right, but not an obligation, to buy or sell the underlying asset",
+          "c": "The right and the obligation to buy or sell the underlying asset",
+          "d": "Neither the right nor the obligation to buy or sell the underlying asset"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 42,
+        "question": "The price which the option buyer pays to the option seller is called the:",
+        "options": {
+          "a": "Strike price",
+          "b": "Spot price",
+          "c": "Premium",
+          "d": "Margin"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 43,
+        "question": "In an option contract, which party has the obligation to act if the other party exercises their right?",
+        "options": {
+          "a": "The option buyer/holder",
+          "b": "The option seller/writer",
+          "c": "Both parties",
+          "d": "Neither party"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 44,
+        "question": "What type of option gives the buyer the right to buy the underlying asset?",
+        "options": {
+          "a": "Put option",
+          "b": "Call option",
+          "c": "Index option",
+          "d": "Stock option"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 45,
+        "question": "In India, all index and stock options are of which style?",
+        "options": {
+          "a": "American",
+          "b": "European",
+          "c": "Both American and European",
+          "d": "Exotic"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 46,
+        "question": "What is the Strike price or Exercise price (X) in an option contract?",
+        "options": {
+          "a": "The price at which the option premium is traded",
+          "b": "The price at which the underlying security may be purchased or sold if the option is exercised",
+          "c": "The current market price of the underlying asset",
+          "d": "The minimum price movement allowed"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 47,
+        "question": "A transaction in which the purchaser's intention is to create or increase a long position in a series of options is called:",
+        "options": {
+          "a": "Closing purchase",
+          "b": "Opening sale",
+          "c": "Closing sale",
+          "d": "Opening purchase"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 48,
+        "question": "What is the term for reducing or eliminating an existing option position by an appropriate offsetting purchase or sale?",
+        "options": {
+          "a": "Exercising the option",
+          "b": "Assignment",
+          "c": "Squaring off",
+          "d": "Opening a position"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 49,
+        "question": "An option that would give the option holder a positive cash flow if it were exercised immediately is:",
+        "options": {
+          "a": "At-the-money (ATM)",
+          "b": "Out-of-the-money (OTM)",
+          "c": "In-the-money (ITM)",
+          "d": "Near-the-money (NTM)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 50,
+        "question": "For a call option, when is it considered In-the-money (ITM)?",
+        "options": {
+          "a": "When spot price is lower than strike price",
+          "b": "When spot price is equal to strike price",
+          "c": "When spot price is higher than strike price",
+          "d": "When the option premium is positive"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 51,
+        "question": "What is the intrinsic value of an At-the-money (ATM) or Out-of-the-money (OTM) option?",
+        "options": {
+          "a": "It is equal to the premium",
+          "b": "It is negative",
+          "c": "It is positive",
+          "d": "It is zero"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 52,
+        "question": "The difference between the option premium and its intrinsic value is called:",
+        "options": {
+          "a": "Spot value",
+          "b": "Strike value",
+          "c": "Time value",
+          "d": "Exercise value"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 53,
+        "question": "In a long option position, what is the maximum potential loss?",
+        "options": {
+          "a": "Unlimited",
+          "b": "Limited to the strike price",
+          "c": "Limited to the premium paid",
+          "d": "Limited to the value of the underlying asset"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 54,
+        "question": "In a short option position, what is the maximum potential profit?",
+        "options": {
+          "a": "Unlimited",
+          "b": "Limited to the strike price",
+          "c": "Limited to the premium received",
+          "d": "Limited to the value of the underlying asset"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 55,
+        "question": "Compared to futures, options are products with:",
+        "options": {
+          "a": "Symmetric risk exposure",
+          "b": "Unlimited profit and loss potential for both buyer and seller",
+          "c": "Asymmetric risk exposure",
+          "d": "No margin requirements for the seller"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 56,
+        "question": "The effect of time to expiration on both call and put options is generally similar to that of:",
+        "options": {
+          "a": "Spot price",
+          "b": "Strike price",
+          "c": "Interest rates",
+          "d": "Volatility"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 57,
+        "question": "What is Delta (δ or ∆) in option pricing?",
+        "options": {
+          "a": "Measure of sensitivity to time decay",
+          "b": "Measure of sensitivity to interest rates",
+          "c": "Measure of sensitivity to volatility",
+          "d": "Measure of sensitivity of the option value to a small change in the price of the underlying asset"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 58,
+        "question": "What is Gamma (γ) in option pricing?",
+        "options": {
+          "a": "Measure of sensitivity to time decay",
+          "b": "Measure of change in delta with respect to change in price of the underlying asset",
+          "c": "Measure of sensitivity to interest rates",
+          "d": "Measure of sensitivity to volatility"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 59,
+        "question": "Options are known as 'wasting assets' due to the property where the time value gradually falls to zero. This phenomenon is measured by which Greek?",
+        "options": {
+          "a": "Delta",
+          "b": "Gamma",
+          "c": "Theta",
+          "d": "Vega"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 60,
+        "question": "The volatility of the underlying asset is one of the most important factors affecting the price of the option. Volatility that is worked out from the option price rather than historical price movement is known as:",
+        "options": {
+          "a": "Historical volatility",
+          "b": "Realized volatility",
+          "c": "Implied volatility",
+          "d": "Forecasted volatility"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 61,
+        "question": "A trading strategy using options that involves combining options on the same underlying and of same type but with different strikes and maturities is called a:",
+        "options": {
+          "a": "Straddle",
+          "b": "Strangle",
+          "c": "Spread",
+          "d": "Butterfly"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 62,
+        "question": "A bullish vertical spread using calls involves:",
+        "options": {
+          "a": "Buying a higher strike call and selling a lower strike call",
+          "b": "Selling a higher strike call and buying a lower strike call",
+          "c": "Buying a call and a put with the same strike",
+          "d": "Selling a call and a put with the same strike"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 63,
+        "question": "A bearish vertical spread using puts involves:",
+        "options": {
+          "a": "Buying a lower strike put and selling a higher strike put",
+          "b": "Selling a lower strike put and buying a higher strike put",
+          "c": "Buying a put and a call with different strikes",
+          "d": "Selling a put and a call with different strikes"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 64,
+        "question": "A trading strategy that involves buying a call and a put option with the same strike prices and same maturity is called a:",
+        "options": {
+          "a": "Strangle",
+          "b": "Vertical spread",
+          "c": "Horizontal spread",
+          "d": "Straddle"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 65,
+        "question": "When using a straddle strategy, if the trader expects a significant price movement in the underlying asset but is uncertain of the direction, they would typically:",
+        "options": {
+          "a": "Go long a straddle",
+          "b": "Go short a straddle",
+          "c": "Use a calendar spread",
+          "d": "Use a covered call"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 66,
+        "question": "A trading strategy that involves buying a call and a put option with different out-of-the-money strike prices and the same maturity is called a:",
+        "options": {
+          "a": "Straddle",
+          "b": "Strangle",
+          "c": "Vertical spread",
+          "d": "Butterfly spread"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 67,
+        "question": "A strategy used to generate extra income from existing holdings in the cash market by selling a call option on the held stock is called:",
+        "options": {
+          "a": "Protective put",
+          "b": "Long straddle",
+          "c": "Covered call",
+          "d": "Short futures"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 68,
+        "question": "What is the payoff profile of a Protective Put position?",
+        "options": {
+          "a": "Similar to a short put",
+          "b": "Similar to a long call",
+          "c": "Similar to a short straddle",
+          "d": "Similar to a naked short position"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 69,
+        "question": "Put-call parity is a principle that relates the prices of calls and puts with the same:",
+        "options": {
+          "a": "Underlying asset and historical volatility",
+          "b": "Underlying asset, strike price, and time to maturity",
+          "c": "Strike price and different expiry dates",
+          "d": "Underlying asset and different strike prices"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 70,
+        "question": "What is the key assumption for the Put-call parity principle to be directly applicable as stated in the sources?",
+        "options": {
+          "a": "Options are American style",
+          "b": "Options are European style",
+          "c": "The underlying asset pays dividends",
+          "d": "Transaction costs are significant"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 71,
+        "question": "Trading on the derivatives segment in India is primarily:",
+        "options": {
+          "a": "An open outcry market",
+          "b": "An electronic market",
+          "c": "A combination of open outcry and electronic",
+          "d": "A direct negotiation market"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 72,
+        "question": "In the trading mechanism hierarchy mentioned, who is at the lowest level of the user hierarchy?",
+        "options": {
+          "a": "Corporate Manager",
+          "b": "Branch Manager",
+          "c": "Dealer",
+          "d": "Clearing Member"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 73,
+        "question": "A Market order is an order to buy or sell a contract at:",
+        "options": {
+          "a": "A specified limit price",
+          "b": "The previous day's closing price",
+          "c": "The best bid/offer price currently available in the market",
+          "d": "A price determined by the exchange"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 74,
+        "question": "In an order-driven market with price-time priority, which buy order gets matched first?",
+        "options": {
+          "a": "The one with the lowest price",
+          "b": "The one with the highest quantity",
+          "c": "The one with the highest price",
+          "d": "The one that was entered last"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 75,
+        "question": "For a stock to be eligible for derivatives trading in India, it must be chosen from amongst the top 500 stocks in terms of average daily market capitalization and average daily traded value over the previous:",
+        "options": {
+          "a": "One month",
+          "b": "Three months",
+          "c": "Six months",
+          "d": "One year"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 76,
+        "question": "If an existing security fails to meet the continued eligibility criteria for stock derivatives for three consecutive months, what happens regarding new month contracts on that security?",
+        "options": {
+          "a": "No new month contract shall be issued",
+          "b": "Only weekly contracts are allowed",
+          "c": "Contract multiplier is reduced",
+          "d": "Margins are"
+      },
+              "correct_answer": "a"
+      },
+      {
+        "id": 77,
+        "question": "What is the minimum weightage of constituent stocks individually eligible for derivatives trading required for an index to be considered for derivative contracts?",
+        "options": {
+          "a": "60%",
+          "b": "70%",
+          "c": "80%",
+          "d": "90%"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 78,
+        "question": "According to the source, what is a reason for adjusting option contract specifications for corporate actions like bonuses or splits?",
+        "options": {
+          "a": "To increase the number of contracts traded",
+          "b": "To facilitate physical delivery",
+          "c": "To ensure the value of the position remains the same as far as possible",
+          "d": "To change the option style from European to American"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 79,
+        "question": "Dividends which are below what percentage of the market value of the underlying stock are deemed ordinary dividends, for which no adjustment in strike price is made?",
+        "options": {
+          "a": "1%",
+          "b": "2%",
+          "c": "3%",
+          "d": "5%"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 80,
+        "question": "Which of the following is listed as a trading cost incurred by a participant in the equity derivatives market?",
+        "options": {
+          "a": "Rental costs",
+          "b": "Marketing expenses",
+          "c": "Securities Transaction Tax (STT)",
+          "d": "Underlying asset price"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 81,
+        "question": "What is the primary objective of the Clearing Corporation for trades executed in the F&O Segment?",
+        "options": {
+          "a": "To provide trading terminals",
+          "b": "To guarantee settlement of all trades",
+          "c": "To set market prices",
+          "d": "To conduct investor awareness programs"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 82,
+        "question": "In the context of clearing members, what is the legal principle of 'novation'?",
+        "options": {
+          "a": "Transferring risk from buyer to seller",
+          "b": "The Clearing Corporation becomes the central counterparty to all trades",
+          "c": "Settlement is deferred until expiry",
+          "d": "Margins are collected from both parties"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 83,
+        "question": "A Clearing Member (CM) who clears and settles their own proprietary trades and their clients' trades but cannot clear and settle trades of other Trading Members is called a:",
+        "options": {
+          "a": "Trading cum Clearing Member",
+          "b": "Professional Clearing Member",
+          "c": "Self Clearing Member (SCM)",
+          "d": "Designated Clearing Member"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 84,
+        "question": "What is the main advantage of interoperability amongst clearing corporations?",
+        "options": {
+          "a": "Increased number of stock exchanges",
+          "b": "Reduction in trading costs for members",
+          "c": "Elimination of regulatory oversight",
+          "d": "Introduction of new derivative products"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 85,
+        "question": "How are Index futures and options typically settled in India as mentioned in the sources?",
+        "options": {
+          "a": "By physical delivery",
+          "b": "By netting off positions",
+          "c": "In cash",
+          "d": "Through bilateral agreements"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 86,
+        "question": "What is the minimum Net-worth requirement for a Clearing Member who clears and settles only deals executed by himself?",
+        "options": {
+          "a": "Rs. 300 lakhs",
+          "b": "Rs. 100 lakhs",
+          "c": "Rs. 50 lakhs",
+          "d": "Rs. 10 lakhs"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 87,
+        "question": "In the context of risk management, what does SPAN stand for?",
+        "options": {
+          "a": "Standard Price Analysis Network",
+          "b": "Securities Portfolio Allocation Norms",
+          "c": "Standard Portfolio Analysis of Risk",
+          "d": "Stock Position Assessment System"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 88,
+        "question": "Initial margin requirements are based on a value at risk over a one-day time horizon, covering what percentage of potential loss?",
+        "options": {
+          "a": "90%",
+          "b": "95%",
+          "c": "99%",
+          "d": "100%"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 89,
+        "question": "What is the primary purpose of Delivery Margins levied on derivative contracts required to be settled through delivery?",
+        "options": {
+          "a": "To cover potential losses due to price changes",
+          "b": "To cover the premium paid",
+          "c": "To cover potential delivery obligations",
+          "d": "To cover transaction costs"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 90,
+        "question": "What is a key objective of introducing the mechanism for pledge/repledge of client securities?",
+        "options": {
+          "a": "To increase the number of securities traded",
+          "b": "To reduce the risk of misappropriation of client securities by the broker",
+          "c": "To simplify tax calculation for clients",
+          "d": "To lower the option premium"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 91,
+        "question": "The Securities Contracts (Regulation) Act, 1956 primarily aims to prevent:",
+        "options": {
+          "a": "Money laundering",
+          "b": "Undesirable transactions in securities",
+          "c": "High frequency trading",
+          "d": "Insider trading"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 92,
+        "question": "According to the SCRA, contracts in derivatives shall be legal and valid if they are:",
+        "options": {
+          "a": "Traded on a recognized stock exchange",
+          "b": "Agreed upon bilaterally by sophisticated parties",
+          "c": "Cleared through a central bank",
+          "d": "Settled by physical delivery"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 93,
+        "question": "The Securities and Exchange Board of India (SEBI) was established with statutory powers for:",
+        "options": {
+          "a": "Protecting investors, promoting market development, and regulating the securities market",
+          "b": "Managing stock exchanges, setting interest rates, and issuing government securities",
+          "c": "Facilitating foreign exchange trading, regulating commodity markets, and managing public debt",
+          "d": "Providing professional education, conducting research, and certifying associated persons"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 94,
+        "question": "The minimum contract value in the equity derivatives segment as per SEBI regulation (effective Nov 20, 2024, for new contracts) is prescribed in the range of:",
+        "options": {
+          "a": "Rs. 5 to 10 lakhs",
+          "b": "Rs. 10 to 15 lakhs",
+          "c": "Rs. 15 to 20 lakhs",
+          "d": "Rs. 20 to 25 lakhs"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 95,
+        "question": "What is one of the requirements for members of the derivatives segment regarding their clients' awareness of risks?",
+        "options": {
+          "a": "To guarantee a minimum return",
+          "b": "To issue a Risk Disclosure Document and obtain a signed copy",
+          "c": "To only accept high net-worth clients",
+          "d": "To provide legal advice regarding derivatives"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 96,
+        "question": "For Indian investors, are gains or losses from transactions in derivatives on exchanges generally taxable as speculative or non-speculative income under the head 'Profits and Gains from Business or Profession'?",
+        "options": {
+          "a": "Speculative income",
+          "b": "Non-speculative income",
+          "c": "Capital gains",
+          "d": "Income from other sources"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 97,
+        "question": "Under the presumptive scheme of taxation for F&O trading (Section 44AD), if applicable, what percentage of the turnover are gains assessed at?",
+        "options": {
+          "a": "2%",
+          "b": "6%",
+          "c": "15%",
+          "d": "20%"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 98,
+        "question": "Who is required to pay Securities Transaction Tax (STT) on the sale of a futures contract in securities?",
+        "options": {
+          "a": "The buyer",
+          "b": "The seller",
+          "c": "Both buyer and seller",
+          "d": "The exchange"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 99,
+        "question": "What does the term \"Churning\" refer to in the context of securities professionals?",
+        "options": {
+          "a": "Making excessive trades for generating commissions",
+          "b": "Providing objective third-party advice",
+          "c": "Helping clients diversify their portfolios",
+          "d": "Identifying suitable investment recommendations"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 100,
+        "question": "What is SCORES?",
+        "options": {
+          "a": "A system for calculating margins",
+          "b": "A trading platform",
+          "c": "SEBI's web-based centralized grievance redress system",
+          "d": "A platform for physical settlement of securities"
+        },
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "test2": {
+    "title": "NISM Equity Derivatives (Series VIII) Certification Examination - Very Hard Difficulty",
+    "difficulty": "Very Hard",
+    "total_questions": 100,
+    "questions": [
+      {
+        "id": 1,
+        "question": "According to the sources, which characteristic of derivative products makes them riskier in nature compared to buying or selling the underlying asset itself?",
+        "options": {
+          "a": "Standardization",
+          "b": "Centralized trading platform",
+          "c": "Leverage",
+          "d": "Unlimited number of maturities"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is **NOT** listed as a factor influencing the growth of the global derivatives market over the last five decades in the sources?",
+        "options": {
+          "a": "Decreased fluctuations in underlying asset prices",
+          "b": "Integration of financial markets globally",
+          "c": "Use of latest technology in communications",
+          "d": "Frequent innovations in derivatives market"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 3,
+        "question": "In the Indian derivatives market history, what was a key recommendation of the Dr. L. C. Gupta committee report submitted on March 17, 1998?",
+        "options": {
+          "a": "Derivatives should only be traded bilaterally",
+          "b": "Derivatives should be declared as 'securities'",
+          "c": "Physical settlement should be mandatory for all derivatives",
+          "d": "Only institutional investors should be allowed to trade derivatives"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 4,
+        "question": "The J. R. Varma committee was set up to recommend measures for risk containment in the Indian derivatives market. Which operational detail did its report NOT specifically address among the following?",
+        "options": {
+          "a": "Methodology for charging initial margins",
+          "b": "Membership details and net-worth criterion",
+          "c": "Specific trading strategies for clients",
+          "d": "Real time monitoring of positions requirements"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following derivative products commenced trading first in the Indian exchange-traded derivatives market in June 2000?",
+        "options": {
+          "a": "Index options",
+          "b": "Futures contracts on individual stocks",
+          "c": "Index futures contracts based on Nifty and Sensex",
+          "d": "Stock options"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 6,
+        "question": "OTC derivative markets are characterized by being less regulated because transactions occur in private among qualified counterparties. Which feature distinguishes them from exchange-traded derivatives according to the sources?",
+        "options": {
+          "a": "Contracts are standardized",
+          "b": "Management of counter-party risk is centralized",
+          "c": "Transactions are private with little disclosure to the entire market",
+          "d": "A clearing corporation guarantees contract performance"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 7,
+        "question": "Derivatives enable the transfer of various risks from those with low risk appetite to participants with high risk appetite. Which participants are described as willing to take risk?",
+        "options": {
+          "a": "Hedgers",
+          "b": "Corporations",
+          "c": "Traders",
+          "d": "Arbitrageurs"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 8,
+        "question": "According to the sample questions in the sources, which cost is not actually paid by market participants but arises due to lack of liquidity?",
+        "options": {
+          "a": "Securities Transaction Tax",
+          "b": "Brokerage",
+          "c": "SEBI charges",
+          "d": "Impact cost"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 9,
+        "question": "Based on the calculation example for a market capitalization weighted index in the sources, if the total market capitalization on the start date was Rs. 18,800 lakhs and the index was set to 100, what would be the index value if the market capitalization increased to Rs. 42,500 lakhs?",
+        "options": {
+          "a": "126.06",
+          "b": "188.00",
+          "c": "226.06",
+          "d": "425.00"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 10,
+        "question": "In the example provided for a price-weighted index calculation, if the sum of the prices of all stocks on the start date was 1250 and the index value was 250 (with 5 stocks), what was the implicit divisor used in the calculation?",
+        "options": {
+          "a": "1",
+          "b": "5",
+          "c": "12.5",
+          "d": "The number of stocks (5)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 11,
+        "question": "For an equal-weighted index, how does the fund manager typically rebalance the index to restore equal weights after price changes?",
+        "options": {
+          "a": "By selling all stocks and reinvesting equally",
+          "b": "By only buying stocks that have fallen in price",
+          "c": "By selling stocks that have increased in price and buying stocks that have fallen in price",
+          "d": "By only selling stocks that have increased in price"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 12,
+        "question": "According to the calculation example in the sources, if a person places a market buy order for 100 shares and a market sell order for 100 shares immediately after, based on the provided order book, what is the total transaction cost (bid-ask spread * 100)?",
+        "options": {
+          "a": "Rs. 0.50",
+          "b": "Rs. 50",
+          "c": "Rs. 4.50",
+          "d": "Rs. 4.00"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Using the Impact Cost example provided (Buy Quantity 1000 @ 9.80, 2000 @ 9.70, 3000 @ 9.60 | Sell Quantity 1000 @ 9.90, 1500 @ 10.00, 1000 @ 10.10), if the ideal price is 9.85, what is the approximate impact cost percentage for buying 1500 shares?",
+        "options": {
+          "a": "0.84 %",
+          "b": "9.9333",
+          "c": "0.50 %",
+          "d": "1.50 %"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 14,
+        "question": "Index maintenance issues are triggered by corporate actions, whereas index revision is described as a continuous exercise to ensure the index:",
+        "options": {
+          "a": "Reflects the performance of all listed securities",
+          "b": "Tracks government bond yields accurately",
+          "c": "Captures the most vibrant lot of securities and continues to correctly reflect the market",
+          "d": "Minimizes tracking error for index funds"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 15,
+        "question": "While describing the difference between a forward contract and a futures contract using the example of gold, what was the implied net profit per 10 grams if the forward price was Rs. 62,337 and the cash market price after one month was Rs. 62,700?",
+        "options": {
+          "a": "Rs. 237",
+          "b": "Rs. 363",
+          "c": "Rs. 62,337",
+          "d": "Rs. 62,700"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following is listed as a limitation of futures contracts in the sources?",
+        "options": {
+          "a": "Lack of standardization",
+          "b": "Centralized trading platform",
+          "c": "Lack of flexibility in contract design",
+          "d": "Absence of margins"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 17,
+        "question": "According to the SEBI circular referenced for contract size changes effective Nov 2024, what is the minimum value a derivative contract shall have at the time of its introduction?",
+        "options": {
+          "a": "Rs. 5 lakhs",
+          "b": "Rs. 10 lakhs",
+          "c": "Rs. 15 lakhs",
+          "d": "Rs. 20 lakhs"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 18,
+        "question": "Based on the example of Nifty futures quotes as of Oct 03, 2024 (Underlying value 25250.10, Closing price 25475.70), what was the basis for the Nifty futures on that day?",
+        "options": {
+          "a": "225.60",
+          "b": "-225.60",
+          "c": "25475.70",
+          "d": "25250.10"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 19,
+        "question": "According to the Cost of Carry model for financial derivatives, what is deducted from the sum of the spot price and interest cost to finance the purchase?",
+        "options": {
+          "a": "Transaction costs",
+          "b": "Dividend earned",
+          "c": "Storage costs",
+          "d": "Implied volatility"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 20,
+        "question": "One of the assumptions of the Cost of Carry model is that the underlying asset is available in abundance in the cash market. This assumption does **NOT** work well when the underlying asset:",
+        "options": {
+          "a": "Is a financial security like equity",
+          "b": "Is easily storable",
+          "c": "Has a seasonal pattern of demand and supply",
+          "d": "Can be easily sold short"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 21,
+        "question": "Convenience yield is mainly observed in the case of:",
+        "options": {
+          "a": "Equity derivatives",
+          "b": "Debt derivatives",
+          "c": "Currency derivatives",
+          "d": "Consumption assets (commodities)"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 22,
+        "question": "According to the Expectations model, if the futures price is lower than the spot price of an asset, what is the expected market condition called?",
+        "options": {
+          "a": "Contango market",
+          "b": "Normal backwardation",
+          "c": "Backwardation market",
+          "d": "Inverse market"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 23,
+        "question": "Why do arbitrageurs generally lock in their profits, unlike traders who trade naked contracts?",
+        "options": {
+          "a": "Arbitrageurs have lower risk appetite",
+          "b": "Arbitrage involves exploiting mispricing through simultaneous offsetting positions",
+          "c": "Arbitrageurs only trade on expected price direction",
+          "d": "Arbitrage positions have unlimited loss potential"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 24,
+        "question": "Beta is a measure of systematic risk. If a portfolio has a beta less than 1, it is called a(n):",
+        "options": {
+          "a": "Aggressive portfolio",
+          "b": "Conservative portfolio",
+          "c": "Diversified portfolio",
+          "d": "Naked portfolio"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 25,
+        "question": "Based on the example for hedging a portfolio using index futures, if the market value of the portfolio is Rs.90,00,000, portfolio beta is 1.3, index futures price is 17700, and lot size is 50, what is the calculated number of contracts for hedging portfolio risk?",
+        "options": {
+          "a": "13 contracts",
+          "b": "14 contracts",
+          "c": "13.22 contracts",
+          "d": "90,00,000 / (17700*50)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 26,
+        "question": "According to the sources, what is a key difference between using single stock futures and index futures for hedging?",
+        "options": {
+          "a": "Single stock futures hedge systematic risk, index futures hedge specific risk",
+          "b": "Single stock futures hedge total risk, index futures mitigate systematic risk",
+          "c": "Single stock futures always require a 1:1 hedge ratio",
+          "d": "Index futures are cash-settled, single stock futures are physically settled"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 27,
+        "question": "A spread position in futures consists of two opposite positions. What are the two main types mentioned?",
+        "options": {
+          "a": "Vertical spread and Horizontal spread",
+          "b": "Naked position and Covered position",
+          "c": "Inter-commodity/Inter-product spread and Calendar spread",
+          "d": "Bull spread and Bear spread"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 28,
+        "question": "Arbitrage is the simultaneous purchase and sale of an asset or replicating asset to profit from price discrepancies. In an efficient market, how long are arbitrage opportunities likely to persist?",
+        "options": {
+          "a": "For a long period",
+          "b": "Until market sentiment changes",
+          "c": "Only for a brief period, or not at all",
+          "d": "Until regulators intervene"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 29,
+        "question": "An arbitrage strategy involving a long position in the cash or underlying market and a short position in the futures market is called:",
+        "options": {
+          "a": "Reverse cash and carry arbitrage",
+          "b": "Calendar spread arbitrage",
+          "c": "Inter-exchange arbitrage",
+          "d": "Cash and carry arbitrage"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 30,
+        "question": "Using the Reverse cash-and-carry arbitrage example (Stock B spot Rs. 100, One-month futures Rs. 90, multiplier 200), what is the immediate arbitrage profit locked in by buying one futures contract and selling 200 shares in the cash market?",
+        "options": {
+          "a": "Rs. 1000",
+          "b": "Rs. 2000",
+          "c": "Rs. 9000",
+          "d": "Rs. 10"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 31,
+        "question": "A Horizontal Spread (or Calendar Spread) involves options of the same type, having the same strike price, but different:",
+        "options": {
+          "a": "Underlying assets",
+          "b": "Premiums",
+          "c": "Expiry dates",
+          "d": "Volatility"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 32,
+        "question": "Which option trading strategy involves two different types of options (call and put) with the same strike prices and same maturity?",
+        "options": {
+          "a": "Vertical spread",
+          "b": "Horizontal spread",
+          "c": "Straddle",
+          "d": "Strangle"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 33,
+        "question": "In a Long Strangle position using OTM call and put options, where does the maximum loss occur?",
+        "options": {
+          "a": "When the underlying price expires far below the put strike",
+          "b": "When the underlying price expires far above the call strike",
+          "c": "When the underlying price expires between the two strike prices",
+          "d": "When the underlying price expires exactly at one of the strike prices"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 34,
+        "question": "Based on the Covered Call example (Long Stock @ 1590, Short Call 1600 strike, Premium 10), if the stock price rises to 1640 on expiry, what is the net profit on the combined position?",
+        "options": {
+          "a": "50",
+          "b": "-30",
+          "c": "20",
+          "d": "10"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 35,
+        "question": "A Protective Put position combines a long position in the underlying asset with:",
+        "options": {
+          "a": "A short call option",
+          "b": "A long call option",
+          "c": "A short put option",
+          "d": "A long put option"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 36,
+        "question": "The principle of Put-Call Parity is used to find arbitrage opportunities between call and put options when their traded price deviates from the theoretical price. What specific set of option parameters must be identical for Put-Call Parity to apply as stated?",
+        "options": {
+          "a": "Underlying, premium, and maturity",
+          "b": "Underlying, strike price, and expiry dates",
+          "c": "Strike price, premium, and option type",
+          "d": "Underlying, strike price, and premium"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 37,
+        "question": "Delta hedging involves adjusting the position in the underlying asset or futures based on the option's delta. If a short call position has a delta of -0.60, a trader would need to take which position in the underlying to make the position delta-neutral?",
+        "options": {
+          "a": "Short position",
+          "b": "Long position",
+          "c": "No position needed",
+          "d": "A position in a different derivative"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 38,
+        "question": "If the Delta of a call option is 0.50 and its Gamma is 0.08, what would be the new approximate Delta if the underlying price increases by 1 rupee?",
+        "options": {
+          "a": "0.50",
+          "b": "0.58",
+          "c": "0.42",
+          "d": "0.08"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 39,
+        "question": "What does a rising futures price along with rising open interest typically signal?",
+        "options": {
+          "a": "Short-covering",
+          "b": "A bearish trend",
+          "c": "A bullish trend",
+          "d": "Squaring up of long positions"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 40,
+        "question": "If the Put-Call Ratio (PCR) based on open interest for an index is 1.25, what does this generally signal according to the sources?",
+        "options": {
+          "a": "A bearish trend (option sellers prefer selling calls)",
+          "b": "A bullish trend (option sellers do not expect a fall)",
+          "c": "Market neutrality",
+          "d": "High market volatility"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 41,
+        "question": "In the trading system, orders are stored in 'books' based on price-time priority. How are orders prioritized within the same price level?",
+        "options": {
+          "a": "By quantity (largest first)",
+          "b": "By counterparty type (Pro/Cli)",
+          "c": "By time priority (earliest first)",
+          "d": "Randomly"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 42,
+        "question": "For Index Futures and Futures on Individual Securities, what is the operating range for order entry prices kept at, as a percentage of the base price?",
+        "options": {
+          "a": "5%",
+          "b": "10%",
+          "c": "15%",
+          "d": "20%"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 43,
+        "question": "According to the sample questions, what is the correct action for a trader who bought shares at Rs 780 and wants to limit his loss to Rs 1000 on this 100-share position if the price falls?",
+        "options": {
+          "a": "Place a limit sell order for 100 shares of XYZ at Rs 770 per share",
+          "b": "Place a stop loss sell order for 100 shares of XYZ at Rs 770 per share",
+          "c": "Place a limit buy order for 100 shares of XYZ at Rs 790 per share",
+          "d": "Place a limit buy order for 100 shares of XYZ at Rs 770 per share"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 44,
+        "question": "Based on the Exit norms for stock derivatives (PSF), what is the minimum percentage of active trading members in all stock derivatives that must have traded in a derivative contract on a stock for it to continue eligibility (or 200 trading members, whichever is lower)?",
+        "options": {
+          "a": "10%",
+          "b": "15%",
+          "c": "20%",
+          "d": "25%"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 45,
+        "question": "Under the PSF for stock derivatives, what is the minimum average daily turnover single-sided (futures + options premium) required during the review period for a stock to remain eligible?",
+        "options": {
+          "a": "INR 10 crores",
+          "b": "INR 35 crores",
+          "c": "INR 75 crores",
+          "d": "INR 1500 crores"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 46,
+        "question": "If an index fails to meet the eligibility criteria for trading derivative contracts for three consecutive months, what happens?",
+        "options": {
+          "a": "Trading on the index is suspended immediately",
+          "b": "Only weekly contracts are allowed",
+          "c": "No fresh contract shall be issued on that index",
+          "d": "The index is removed from the derivatives list permanently"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 47,
+        "question": "For a corporate action like a Bonus issue with a ratio A:B, what is the adjustment factor used for strike price, market lot, and position for option contracts?",
+        "options": {
+          "a": "A/B",
+          "b": "B/A",
+          "c": "(A+B)/B",
+          "d": "(A+B)/A"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 48,
+        "question": "In case of a Merger/Demerger where an underlying security will cease to exist, what happens to the un-expired futures and options contracts on that underlying outstanding as of the last cum-date?",
+        "options": {
+          "a": "They are allowed to trade till the original expiry date",
+          "b": "They are compulsorily settled at the settlement price on the last cum-date",
+          "c": "They are transferred to the merged/demerged entity",
+          "d": "They are converted into cash segment positions"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 49,
+        "question": "According to the trading costs section, Stamp duty is charged at 0.002% (Rs.200 per crore) for buyers of equity futures. What is the rate for buyers of equity options?",
+        "options": {
+          "a": "0.002% (Rs.200 per crore)",
+          "b": "0.003% (Rs.300 per crore)",
+          "c": "0.01% (Rs.1000 per crore)",
+          "d": "Stamp duty is not charged on equity options"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 50,
+        "question": "Based on the example calculation of total trading cost for a short position of 1 lot of index futures (Contract value Rs. 8,75,000), what was the calculated Exchange fees @ 0.002%?",
+        "options": {
+          "a": "17.5",
+          "b": "1.75",
+          "c": "0.88",
+          "d": "50.72"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "id": 51,
+        "question": "Algorithmic trading primarily aims to:",
+        "options": {
+          "a": "Increase emotional influence in trading decisions",
+          "b": "Slow down order execution",
+          "c": "Execute orders utilizing automated and pre-programmed trading instructions",
+          "d": "Increase transaction costs for institutional investors"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 52,
+        "question": "According to the SEBI caution regarding unregulated algorithmic trading platforms, what are brokers offering algo trading services specifically directed NOT to do?",
+        "options": {
+          "a": "Charge a fee for the service",
+          "b": "Allow institutional clients to use it",
+          "c": "Refer to the past or expected returns from such algo strategy",
+          "d": "Use automated execution for orders"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 53,
+        "question": "When tracking futures and options data, what is the Total Traded Quantity?",
+        "options": {
+          "a": "The value of all trades executed",
+          "b": "The number of open positions",
+          "c": "The number of contracts that have been traded or changed hands during the day",
+          "d": "The number of trades executed"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 54,
+        "question": "What is the primary purpose of the Investor Risk Reduction Access (IRRA) platform?",
+        "options": {
+          "a": "To provide new trading opportunities",
+          "b": "To allow institutional clients to trade",
+          "c": "To provide an alternative for squaring off/closing open positions in case of trading service disruption",
+          "d": "To facilitate algorithmic trading for individual investors"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 55,
+        "question": "According to the framework for addressing technical glitches in Stock Brokers' Electronic Trading Systems, how long do stock brokers have to submit a Preliminary Incident Report to the Exchange after an incident (T)?",
+        "options": {
+          "a": "Immediately",
+          "b": "Within 1 hour",
+          "c": "Within T+1 day",
+          "d": "Within 14 days"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 56,
+        "question": "In the Clearing Mechanism, how is a Trading Member's (TM) open position calculated if they clear through a Clearing Member (CM)?",
+        "options": {
+          "a": "Net basis for proprietary only",
+          "b": "Sum of proprietary net position, client open long position, and client open short position",
+          "c": "Net basis for all positions (proprietary + client)",
+          "d": "Gross basis for all positions"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 57,
+        "question": "What is the net position for Clearing Member 'A' in the example provided (TM PQR: Prop Net 2000, Client1 Net 1000, Client2 Net 2000; TM XYZ: Prop Net -1000, Client1 Net 1000, Client2 Net -1000)?",
+        "options": {
+          "a": "Long 3000, Short 0",
+          "b": "Long 6000, Short 2000",
+          "c": "Long 4000, Short 1000",
+          "d": "Long 5000, Short 1000"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 58,
+        "question": "According to the source, what is a potential drawback of market participants having to maintain collaterals and margin deposits at multiple clearing houses?",
+        "options": {
+          "a": "Reduced trading volumes",
+          "b": "Increased competition among clearing corporations",
+          "c": "Inefficient allocation of capital and higher trading costs",
+          "d": "Faster settlement times"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 59,
+        "question": "Since October 2019, how are positions in futures and options on individual securities settled if they remain open on the expiry date of the contract?",
+        "options": {
+          "a": "In cash only",
+          "b": "By netting off positions",
+          "c": "By physical delivery",
+          "d": "By rollover to the next month"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 60,
+        "question": "For cash-settled futures contracts, how is the daily settlement price typically calculated?",
+        "options": {
+          "a": "Based on the closing price of the underlying",
+          "b": "Based on the last 30 minutes volume weighted average price of the futures contract",
+          "c": "Based on the previous day's settlement price",
+          "d": "Based on a theoretical price using the Cost of Carry model"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 61,
+        "question": "For cash-settled futures contracts, when is the final settlement calculated and settled?",
+        "options": {
+          "a": "Daily, along with MTM",
+          "b": "On the last trading day, after market close",
+          "c": "On T+1 for positions opened during the day",
+          "d": "At the start of market hours on the next day"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 62,
+        "question": "Based on Example 1 for physical settlement of stock futures (Client P, long 1 lot, size 1500, FSP 475, Prev Day SP 482), what is the final settlement obligation amount for Mr. P on T+1 date?",
+        "options": {
+          "a": "Rs. 10,500",
+          "b": "Rs. 7,12,500",
+          "c": "Rs. 475",
+          "d": "Rs. 482"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 63,
+        "question": "How are In-the-money (ITM) index options contracts typically settled in India on the expiry day?",
+        "options": {
+          "a": "By physical delivery of the underlying",
+          "b": "By netting off against OTM options",
+          "c": "By automatic cash settlement based on intrinsic value",
+          "d": "By rollover to the next expiry"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 64,
+        "question": "Based on Example 4 for exercise settlement of stock options (Client P, long call, strike 475, stock close 510, lot size 1500), what is the exercise settlement value that Mr. P will have to pay on T+1 for taking delivery?",
+        "options": {
+          "a": "Rs. (510-475) * 1500",
+          "b": "Rs. 510 * 1500",
+          "c": "Rs. 475 * 1500",
+          "d": "Rs. 1500"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 65,
+        "question": "Under the net settlement mechanism of cash and F&O segments on expiry of stock derivatives, which category of investors is explicitly mentioned as NOT being able to avail this benefit?",
+        "options": {
+          "a": "Individual investors",
+          "b": "HUFs",
+          "c": "Institutional investors",
+          "d": "NRIs"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 66,
+        "question": "What is a key risk containment measure used by Exchanges and Clearing Corporations in the derivatives segment besides margins and position monitoring?",
+        "options": {
+          "a": "Limiting the number of trades per day",
+          "b": "Prohibiting certain trading strategies",
+          "c": "Stringent requirements of capital adequacy for membership",
+          "d": "Setting fixed prices for contracts"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 67,
+        "question": "SPAN calculates initial margins based on predicting the largest possible loss a portfolio might reasonably suffer over what time period?",
+        "options": {
+          "a": "The life of the contract",
+          "b": "One trading day",
+          "c": "One week",
+          "d": "Until expiry"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 68,
+        "question": "According to the sources, what is the purpose of levying Premium Margin for options?",
+        "options": {
+          "a": "To cover potential losses from price movements",
+          "b": "To cover the premium amount due to be paid to the Clearing Corporation",
+          "c": "To cover potential delivery obligations",
+          "d": "To cover transaction costs"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 69,
+        "question": "Regarding Intra-day Crystallised Losses (ICMTM), which contracts are they computed only for?",
+        "options": {
+          "a": "Option contracts",
+          "b": "Futures contracts",
+          "c": "Both futures and options",
+          "d": "Physically settled contracts only"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 70,
+        "question": "What percentage of Delivery margins computed on Expiry - 4 EOD is collected from clearing members in a staggered manner?",
+        "options": {
+          "a": "20%",
+          "b": "40%",
+          "c": "60%",
+          "d": "80%"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 71,
+        "question": "What is the Net Option Value (NOV) defined as?",
+        "options": {
+          "a": "The sum of call and put premiums",
+          "b": "The difference between long and short option positions valued at market price",
+          "c": "The intrinsic value plus time value of options",
+          "d": "The total margin required for option positions"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 72,
+        "question": "To mitigate the risk of brokers misappropriating client securities used for margins, what mechanism is now mandatory for accepting collateral in the form of securities?",
+        "options": {
+          "a": "Power of Attorney",
+          "b": "Physical transfer to broker's account",
+          "c": "Direct deposit with the exchange",
+          "d": "Margin pledge created in the Depository system"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 73,
+        "question": "Under the updated peak margin regulations (effective Aug 1, 2022), what margin parameters are used for calculating the EOD margin collection requirement from clients in derivatives segments for verification purposes?",
+        "options": {
+          "a": "End of Day (EOD) margin parameters",
+          "b": "Intra-day peak margin parameters",
+          "c": "Fixed Beginning of Day (BOD) margin parameters",
+          "d": "SPAN margin parameters without ELM"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 74,
+        "question": "For client-level position limits on futures and option contracts on individual securities, the gross open position shall not exceed higher of 1% of free float market capitalization or what percentage of the open interest in all derivative contracts in the same underlying stock per Exchange?",
+        "options": {
+          "a": "2%",
+          "b": "5%",
+          "c": "10%",
+          "d": "15%"
+        },
+        "correct_answer": "d"
+      },
+     {
+    "id": 75,
+    "question": "If the aggregate open interest of a security across Exchanges exceeds 95 per cent of the MWPL, what restriction is imposed from the subsequent trading day?",
+      "options": {
+        "a": "Only squaring off of positions is allowed",
+        "b": "No fresh positions shall be permitted",
+        "c": "Trading is halted for the day",
+        "d": "Margin requirements are doubled"
+        },
+      "correct_answer": "b"
+    },
+      {
+        "id": 76,
+        "question": "Based on the sample question about the Governing Council of the Clearing Corporation, is it true that broker-members are allowed on it?",
+        "options": {
+          "a": "True",
+          "b": "False"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 77,
+        "question": "According to the sources, what is the minimum networth required for a clearing member of the derivatives clearing corporation as laid down by the L.C. Gupta committee and SEBI?",
+        "options": {
+          "a": "Rs. 100 lakhs",
+          "b": "Rs. 300 lakhs",
+          "c": "Rs. 500 lakhs",
+          "d": "Rs. 7500 crores"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 78,
+        "question": "Under the SEBI (Stock Broker) Regulations, 1992, which of the following situations can lead to a penalty or suspension of registration of a stock broker from the derivatives exchange/segment?",
+        "options": {
+          "a": "Stock broker fails to pay fees",
+          "b": "Stock broker violates the conditions of registration",
+          "c": "Stock broker is suspended by the stock exchange",
+          "d": "Any of the above situations"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "id": 79,
+        "question": "According to the Standard Operating Procedure for handling stock exchange outages, if continuous trading is disrupted, market participants and other MIIs must be informed immediately or at least within:",
+        "options": {
+          "a": "5 minutes",
+          "b": "15 minutes",
+          "c": "30 minutes",
+          "d": "1 hour"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 80,
+        "question": "Based on the SOP for handling stock exchange outages, if the affected stock exchange resumes normal trading less than 1 hour before the scheduled market closure, what action should all stock exchanges take?",
+        "options": {
+          "a": "No change in trading hours",
+          "b": "Extend trading hours by one hour",
+          "c": "Extend trading hours by one and a half hours",
+          "d": "Shorten trading hours"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 81,
+        "question": "According to Accounting Standard - 11 for forward contracts when used for hedging, how should the premium or discount be treated?",
+        "options": {
+          "a": "Recognized immediately as profit or loss",
+          "b": "Ignored until settlement",
+          "c": "Amortized over the life of the contract",
+          "d": "Adjusted against the spot price"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 82,
+        "question": "In the books of a client, how should the initial margin paid for entering into equity index/stock futures contracts be accounted for at the inception of the contract?",
+        "options": {
+          "a": "Credited to a Revenue account",
+          "b": "Debited to \"Initial Margin - Equity Index/Equity stock Futures Account\"",
+          "c": "Treated as an expense in Profit & Loss",
+          "d": "Added to the cost of the underlying asset"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 83,
+        "question": "Based on the accounting guidance notes for futures, at the balance sheet date, how should the balance in the \"Initial Margin - Equity Index/ Equity Stock Futures Account\" be presented?",
+        "options": {
+          "a": "As a liability",
+          "b": "As an income",
+          "c": "As a separate item under 'Currency Assets'",
+          "d": "As an expense"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 84,
+        "question": "For accounting of open interests in futures at the balance sheet date, if there is a net amount received (credit balance) in the \"Mark-to-Market Margin Account,\" how should it be treated according to the prudence principle?",
+        "options": {
+          "a": "Recognized as income",
+          "b": "Ignored as anticipated profit",
+          "c": "Shown as a current liability",
+          "d": "Adjusted against initial margin"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 85,
+        "question": "In the books of the buyer/holder of a cash-settled equity index option, how is the premium treated at the time of final settlement?",
+        "options": {
+          "a": "Recognized as income",
+          "b": "Recognized as an expense in the profit and loss account",
+          "c": "Adjusted against the strike price",
+          "d": "Carried forward as a liability"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 86,
+        "question": "When accounting for open options at the balance sheet date in the books of the buyer/holder, a provision should be made if:",
+        "options": {
+          "a": "The premium prevailing on the balance sheet date is higher than the premium paid",
+          "b": "The premium paid exceeds the premium prevailing on the balance sheet date",
+          "c": "The intrinsic value is positive",
+          "d": "The time value is positive"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 87,
+        "question": "For Foreign Portfolio Investors (FPIs), gains or losses from derivatives transactions on a recognized stock exchange are taxable under which head?",
+        "options": {
+          "a": "Profits and Gains from Business or Profession",
+          "b": "Capital Gains",
+          "c": "Income from Other Sources",
+          "d": "Salary Income"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 88,
+        "question": "According to the sources, why were derivative transactions considered speculative transactions for income tax purposes prior to Financial Year 2005–06?",
+        "options": {
+          "a": "They were not traded on recognized exchanges",
+          "b": "Section 43(5) defined them as settled otherwise than by actual delivery",
+          "c": "STT was not applicable to them",
+          "d": "Only traders participated in them"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 89,
+        "question": "Under current tax provisions for Indian investors, if a loss on derivative transactions (non-speculative) cannot be set off against other income during the year (except salary), how can it be treated?",
+        "options": {
+          "a": "It is lost and cannot be carried forward",
+          "b": "It can be carried forward for 8 assessment years and set off against any non-speculative business income",
+          "c": "It can be carried forward indefinitely and set off against any income",
+          "d": "It is set off against capital gains only"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 90,
+        "question": "For STT calculation on the sale of an option in securities where the option is exercised, what is the value of the taxable securities transaction?",
+        "options": {
+          "a": "The option premium",
+          "b": "The strike price",
+          "c": "The settlement price",
+          "d": "The difference between settlement price and strike price"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 91,
+        "question": "According to the sources, who is responsible for deciding the framework for increasing customer satisfaction in the financial sector?",
+        "options": {
+          "a": "Only SEBI",
+          "b": "Only Stock Exchanges",
+          "c": "Company, its employees and intermediaries",
+          "d": "Only the customers"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 92,
+        "question": "Investors should be careful about investment opportunities that promise spectacular profits or \"guaranteed\" returns because:",
+        "options": {
+          "a": "They are usually illiquid",
+          "b": "No investment is risk-free, and returns are related to risk",
+          "c": "They are only available to institutional investors",
+          "d": "They involve high transaction costs"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 93,
+        "question": "In the context of investments, besides the chance of losing capital, \"risk\" more importantly refers to the chance that the investor may not get:",
+        "options": {
+          "a": "Any return at all",
+          "b": "The desired return on an investment vehicle",
+          "c": "Their principal back immediately",
+          "d": "A return higher than the inflation rate"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 94,
+        "question": "What is explicitly mentioned as a key parameter on which one's risk tolerance can depend?",
+        "options": {
+          "a": "Stock market experience",
+          "b": "Age",
+          "c": "Preference for physical settlement",
+          "d": "Knowledge of option Greeks"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 95,
+        "question": "According to the SEBI study highlights for individual traders in equity F&O during FY 2021-22, on average, how much did loss makers register as net trading loss?",
+        "options": {
+          "a": "Close to ₹ 10,000",
+          "b": "Close to ₹ 25,000",
+          "c": "Close to ₹ 50,000",
+          "d": "Close to ₹ 100,000"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 96,
+        "question": "In the 'Client Due Diligence Process' under AML procedures, which of the following is explicitly listed as a specific parameter?",
+        "options": {
+          "a": "Monitoring brokerage rates",
+          "b": "Procedure for identifying the clients",
+          "c": "Predicting future market movements",
+          "d": "Recommending suitable trading strategies"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 97,
+        "question": "Which of the following is listed as a factor for risk perception of a client under AML procedures?",
+        "options": {
+          "a": "Client's preferred trading strategy",
+          "b": "Client's educational background",
+          "c": "Client's location",
+          "d": "Client's preferred broker"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 98,
+        "question": "According to the e-KYC process described, In-person Verification (IPV) is NOT required when:",
+        "options": {
+          "a": "The client is a high net-worth individual",
+          "b": "KYC of the investor is completed using Aadhaar authentication/ verification of UIDAI",
+          "c": "The client trades only in options",
+          "d": "The client provides physical copies of documents"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "id": 99,
+        "question": "Which body is responsible for receiving Suspicious Transaction Reports (STR) in India?",
+        "options": {
+          "a": "Securities and Exchange Board of India (SEBI)",
+          "b": "Reserve Bank of India (RBI)",
+          "c": "Financial Intelligence Unit – India (FIU-IND)",
+          "d": "Central Bureau of Investigation (CBI)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "id": 100,
+        "question": "If an investor's grievance is not redressed satisfactorily by the Market Participant and then through the SCORES Portal, what is the next step suggested according to the process laid out for the Online Dispute Resolution (ODR) Portal?",
+        "options": {
+          "a": "File a civil lawsuit in court",
+          "b": "Directly initiate dispute resolution through the ODR Portal",
+          "c": "Approach the media",
+          "d": "Wait for SEBI to resolve it automatically"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+}
