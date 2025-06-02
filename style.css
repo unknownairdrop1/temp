@@ -78,3 +78,104 @@ body.dark-mode {
     background-color: #f8d7da;
     border-left: 4px solid red;
 }
+/* Add these styles to your existing style.css */
+
+.correct-answer {
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+}
+
+.user-wrong-answer {
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+}
+
+.dark-mode .correct-answer {
+    background-color: #155724 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+.dark-mode .user-wrong-answer {
+    background-color: #721c24 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* Chapter menu button hover effects */
+.btn-outline-primary:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+/* Progress bar animations */
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+/* Card hover effects */
+.card {
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Dark mode enhancements */
+.dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .card-header {
+    background-color: #2d2d2d !important;
+    border-color: #333 !important;
+}
+
+.dark-mode .card-footer {
+    background-color: #2d2d2d !important;
+    border-color: #333 !important;
+}
+
+.dark-mode .alert-info {
+    background-color: #1a4d72 !important;
+    border-color: #1e5a8a !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .form-check-input:checked {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.dark-mode .btn-outline-secondary {
+    color: #ffffff !important;
+    border-color: #6c757d !important;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+    background-color: #6c757d !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .btn-outline-primary {
+    color: #ffffff !important;
+    border-color: #0d6efd !important;
+}
+
+.dark-mode .btn-outline-primary:hover {
+    background-color: #0d6efd !important;
+    color: #ffffff !important;
+}
