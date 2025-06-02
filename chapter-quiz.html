@@ -13,10 +13,25 @@
 
     <div class="container my-5">
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <h1 class="h4">📘 Chapter-wise Interactive Quiz</h1>
+            <div>
+                <h1 class="h4" id="quiz-title">📘 Chapter-wise Interactive Quiz</h1>
+                <small class="text-muted" id="chapter-badge"></small>
+            </div>
             <div>
                 <button class="btn btn-sm btn-outline-secondary me-2" onclick="window.location.href='index.html'">🏠 Home</button>
                 <button class="btn btn-sm btn-outline-dark" onclick="toggleDarkMode()">🌗 Toggle Dark Mode</button>
+            </div>
+        </div>
+
+        <!-- Chapter Selection Menu -->
+        <div class="card mb-4" id="chapter-menu">
+            <div class="card-header">
+                <h5 class="mb-0">📚 Select Chapter</h5>
+            </div>
+            <div class="card-body">
+                <div class="row" id="chapter-buttons">
+                    <!-- Chapter buttons will be populated here -->
+                </div>
             </div>
         </div>
 
@@ -24,7 +39,7 @@
         <div id="attempts" class="alert alert-info text-center"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="chapter-script.js"></script>
 </body>
 
 </html>
